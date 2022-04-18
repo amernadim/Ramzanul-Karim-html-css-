@@ -161,6 +161,10 @@ ul li a:hover {
     justify-content: center;
     gap: 20px; 
 }
+.rujar-amol-img img {
+    height: 300px;
+    width: 25%;
+}
 
 .rujar-amol-img img ,.dua img {
     border-radius: 10px;
@@ -222,6 +226,134 @@ footer p {
     padding-top: 20px;
     letter-spacing: 2px;
 }
+
+
+
+        /* 
+		  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+		  ##Screen = B/w 481px to 767px
+		*/
+
+		@media (min-width: 601px) and (max-width: 900px) {
+            .banner {   
+                display:block;           
+                height: auto;
+                margin-left: 8px;
+                margin-right: 8px;
+                padding: 5px;
+             
+            }
+            .banner-img img {
+                margin: 2px;
+                width: 100%;
+                height: auto;
+            }
+          
+          }
+          
+          /* 
+            ##Device = Most of the Smartphones Mobiles (Portrait)
+            ##Screen = B/w 320px to 479px
+          */
+  
+          @media (min-width: 375px) and (max-width: 600px) {
+            .container {
+                padding: 10px 50px 5px 50px;
+                margin: 0 5px;
+            }
+            
+
+              
+             .menu-bar li {
+                 display: none;
+             }
+
+             .banner {   
+                 display:block;           
+                 height: auto;
+                 margin-left: 8px;
+                 margin-right: 8px;
+                 padding: 5px;
+              
+             }
+
+             .banner-img img {
+                margin: 2px;
+                width: 100%;
+                height: auto;
+            }
+            .banner-text {
+                padding: 5px;
+            }
+            .banner-text h4 {
+                font-size: 30px;
+                
+            }
+            .banner-text p ,.ruja p {
+                font-size: 20px;
+                text-align: justify;
+                
+            }
+
+            .ruja {
+                padding: 50px 10px 5px 10px;
+
+            }
+            .ruja img {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 5px;
+            }
+            .ruja h2 {
+                margin: 10px 0 ;
+            }
+
+            .rujar-amol {
+                padding: 50px 10px 0 10px;
+            }
+            .rujar-amol h2 , .dua h2 {
+                margin-top: 10px;
+                
+            }
+            .rujar-amol-img img {
+               display: block;
+               height: auto;
+               width: 100%;
+               
+            }
+            #img1 {
+                display: none;
+            }
+
+            .dua {
+                padding: 20px 10px 0 10px;
+            }
+
+            .dua img {
+                height: auto;
+                width: 100%;
+                
+            }
+
+            .calender img {
+                height: auto;
+                width: 100%;
+                margin: 5px 2px;
+            }
+
+
+
+
+
+            
+            
+
+           
+            
+          }
 
 
 
